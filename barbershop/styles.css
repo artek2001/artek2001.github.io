@@ -1,0 +1,217 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #242424;
+}
+
+.header {
+    min-height: 72px;
+    background-color: #000000;
+}
+
+.main {
+    min-height: 800px;
+}
+
+.layout-positioner {
+    margin: 0px auto;
+}
+
+nav {
+    min-width: 1100px;
+}
+
+.nav-text {
+    color: #ffffff;
+    font-family: ptsans;
+    font-weight: ;
+    list-style: none;
+    margin: 0px;
+    padding-top: 25px;
+    text-align: left;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+
+.li-signin {
+    text-align: right;
+    color: #ffffff;
+    font-family: ptsans-nav;
+    font-weight: ;
+    list-style: none;
+    margin: 0px;
+    padding-top: 20px;
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.li-signin::before {
+    display: block;
+    padding-top: 0px;
+    float: left;
+    margin-right: 5px;
+    content: url(assets/.icon-login.svg);
+}
+
+.li-nav:nth-child(1) {
+    margin-left: ;
+}
+
+.li-nav {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.layout-positioner::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+.header-item {
+    margin: 0px auto;
+}
+
+.footer {
+    min-height: 189px;
+    background-color: #212121;
+    background: url(assets/footer.png);
+}
+
+
+/*  940 x 510 */
+
+.features-main {
+    display: block;
+    text-align: center;
+}
+
+.features_ {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.logo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.main {
+    background: url(assets/back.png);
+}
+
+.features-main > div > h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.frs-1 {
+    float: left;
+}
+
+.frs-2 {
+    float: left;
+    margin-left: 105px;
+}
+
+.frs-3 {
+    float: right;
+}
+
+.features_:nth-child(3) {
+    margin-right: 0px;
+}
+
+h2 {
+    font-family: ptsans;
+}
+
+p {
+    font-family: ptsans;
+    font-weight: ;
+    font-size: 18px;
+    margin-bottom: 86px;
+}
+
+@font-face {
+    font-family: ptsans;
+    src: url(fonts/ptsans/PTSans/PTN77F.ttf);
+}
+
+@font-face {
+    font-family: ptsans-nav;
+    src: url(fonts/ptsans/PTSans/PTN77F.ttf);
+}
+
+
+/* PTN77F.ttf */
+
+.main-item {
+    width: 1200px;
+    min-height: 430px;
+    background: url(assets/backf.png);
+    margin-bottom: 34px;
+}
+
+.footer-text {
+    font-family: ptsans;
+    font-size: 18px;
+    color: white;
+}
+
+.foo {
+    display: inline-block;
+
+}
+
+.foo-1 {
+    float: left;
+}
+
+.foo-2 {
+    margin-left: 155px;
+    text-align: center;
+}
+
+.foo-3 {
+    float: right;
+}
+
+.icon {
+    margin-right: 3px;
+}
+
+p.f-text-main {
+    margin-bottom: 0px;
+}
+
+.foo-3 p {
+    margin-bottom: 0px;
+}
