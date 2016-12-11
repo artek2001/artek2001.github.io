@@ -175,7 +175,7 @@ p {
 
 .main-item {
     width: 1200px;
-    min-height: 430px;
+    min-height: 530px;
     background: url(assets/backf.png);
     margin-bottom: 34px;
 }
@@ -188,7 +188,6 @@ p {
 
 .foo {
     display: inline-block;
-
 }
 
 .foo-1 {
@@ -214,4 +213,57 @@ p.f-text-main {
 
 .foo-3 p {
     margin-bottom: 0px;
+}
+
+.news {
+    padding-top: 15px;
+    width: 530px;
+    float: left;
+    margin-left: 80px;
+}
+
+.news-item {
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+.news-date {
+    margin-bottom: 30px;
+
+}
+
+.news-date:last-child {
+    margin-bottom: 34px;
+}
+
+.photo {
+    width: 300px;
+}
+
+.news-title {
+    display: inline-block;
+    width: 380px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.all-news-btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    margin-bottom: 54px;
+}
+
+
+
+.photo {
+    float: right;
+}
+.photofix::after {
+    width: 580px;
+    content: url('assets/photo.svg');
+    display: table;
+    clear: both;
 }
