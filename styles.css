@@ -89,12 +89,14 @@ a {
 }
 main {
 	background: url("images/background.jpg");
+	background-position: center top;
 	height: 1268px;
 	padding: 10px;
+
 }
 
 footer {
-
+	height: 193px;
 	background: #252525;
 }
 
@@ -109,6 +111,7 @@ footer {
 .features-item {
 	display: inline-block;
 	text-align: center;
+	width: 300px;
 }
 
 .features-item b {
@@ -121,16 +124,21 @@ footer {
 .features-item b::after {
 	content: url("images/shape.png");
 	display: block;
+	margin-top: 17px;
 }
 
 .features-item p {
 	font-size: 14px;
+	font-weight: bold;
+	font-kerning: normal;
+	line-height: 24px;
 	
 }
 
 .features-item:nth-child(1),
 .features-item:nth-child(2) {
 	float: left;
+	margin-right: 20px;
 }
 
 .features-item:nth-child(3) {
