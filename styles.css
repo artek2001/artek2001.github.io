@@ -7,6 +7,7 @@ body {
 	margin: 0px;
 	font-family: PT Sans Narrow, Arial, sans-serif;
 	color: #FFFFFF;
+	background: #070707;
 }
 
 header {
@@ -89,7 +90,7 @@ a {
 }
 main {
 	background: url("images/background.jpg");
-	background-position: center top;
+	background-repeat: no-repeat;
 	height: 1268px;
 	padding: 10px;
 
@@ -97,7 +98,8 @@ main {
 
 footer {
 	height: 193px;
-	background: #252525;
+	background: url("images/texture2.png") ;
+	background-repeat: repeat;
 }
 
 .logo-block {
