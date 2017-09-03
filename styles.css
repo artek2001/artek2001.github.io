@@ -105,3 +105,35 @@ footer {
 	margin: 0px auto;
 	margin-top: 50px;
 }
+
+.features-item {
+	display: inline-block;
+	text-align: center;
+}
+
+.features-item b {
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 50px;
+
+}
+
+.features-item b::after {
+	content: url("images/shape.png");
+	display: block;
+}
+
+.features-item p {
+	font-size: 14px;
+	
+}
+
+.features-item:nth-child(1),
+.features-item:nth-child(2) {
+	float: left;
+}
+
+.features-item:nth-child(3) {
+	float: right;
+}
+
