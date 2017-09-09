@@ -183,10 +183,14 @@ footer {
 
 .main-item::before {
 	content: url("images/divider.png");
-	position: relative;
-	opacity: 0.6;
-	left: 18px;
-	top: 25px;
+	position: absolute;
+	opacity: 1;
+	width: 8px;
+	height: 282px;
+	left: 50%;
+
+	margin-top: 3	0px;
+	margin-left: -5px;
 }
 
 .main-item span {
@@ -208,5 +212,25 @@ footer {
 	width: 110px;
 	background-color: #000000;
 	text-align: center;
-	padding: 15px 30px;
+	padding: 15px 15px;
+}
+
+figure img {
+	border: 7px solid white;
+	display: block;
+	margin: 0px auto;
+}
+
+.btn-prev,
+.btn-next {
+	display: inline-block;
+}
+
+figcaption {
+	margin: 0px auto;
+	text-align: center;
+}
+
+figure {
+
 }
