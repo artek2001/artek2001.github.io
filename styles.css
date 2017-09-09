@@ -189,14 +189,14 @@ footer {
 	height: 282px;
 	left: 50%;
 
-	margin-top: 3	0px;
+	margin-top: 30px;
 	margin-left: -5px;
 }
 
 .main-item span {
 	display: block;
 	margin: 10px 0;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 
 .main-item a {
@@ -212,7 +212,7 @@ footer {
 	width: 110px;
 	background-color: #000000;
 	text-align: center;
-	padding: 15px 15px;
+	padding: 13px 15px;
 }
 
 figure img {
@@ -229,6 +229,11 @@ figure img {
 figcaption {
 	margin: 0px auto;
 	text-align: center;
+	margin-top: 38px;
+}
+
+figure h2 {
+	margin-left: 40px;
 }
 
 figure {
