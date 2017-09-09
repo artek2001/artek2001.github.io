@@ -91,9 +91,9 @@ a {
 main {
 	background: url("images/background.jpg");
 	background-repeat: no-repeat;
-	height: 1268px;
 	padding: 10px;
-
+	height: 1452px;
+	/*background-position: 0px -250px;*/
 }
 
 footer {
@@ -147,3 +147,66 @@ footer {
 	float: right;
 }
 
+.main-item {
+	height: 320px;
+	
+	background: url("images/texture.png");
+	margin-bottom: 35px;
+	color: #000000;
+	padding: 50px 80px;
+}
+
+.main-item-1 {
+	margin-top: 80px;
+}
+
+.news {
+	float: left;
+	width: 380px;
+}
+
+.gallery {
+	float: right;
+	width: 380px;
+}
+
+.main-item h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.main-item p,
+.main-item span {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main-item::before {
+	content: url("images/divider.png");
+	position: relative;
+	opacity: 0.6;
+	left: 18px;
+	top: 25px;
+}
+
+.main-item span {
+	display: block;
+	margin: 10px 0;
+	margin-bottom: 30px;
+}
+
+.main-item a {
+	
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+.btn {
+	display: block;
+	width: 110px;
+	background-color: #000000;
+	text-align: center;
+	padding: 15px 30px;
+}
