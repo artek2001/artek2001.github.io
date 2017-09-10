@@ -46,7 +46,7 @@ nav {
 }
 
 .container {
-	width: 960px;
+	width: 940px;
 	margin: 0px auto;
 	padding: 0px 10px;
 }
@@ -151,7 +151,7 @@ footer {
 }
 
 .main-item {
-	height: 320px;
+	height: 296px;
 	
 	background: url("images/texture.png");
 	margin-bottom: 35px;
@@ -248,7 +248,7 @@ figure {
 /*main-block 2*/
 
 .contacts h2 {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 .contacts {
@@ -261,12 +261,13 @@ figure {
 .form {
 	font-size: 14px;
 	float: right;
-width: 380px;
+	width: 380px;
 	height: 295px;
+	
 }
 
 .address {
-	margin-bottom: 32px;
+	margin-bottom: 17px;
 	font-size: 14px;
 	line-height: 23px;
 }
@@ -274,7 +275,7 @@ width: 380px;
 .time {
 	font-size: 14px;
 	line-height: 23px;
-	margin-bottom: 30px;	
+	margin-bottom: 23px;	
 }
 
 .way,
@@ -292,7 +293,7 @@ form {
 
 input[type="text"] {
 	border: 2px solid black;
-	width: 136px;
+	width: 140px;
 	height: 43px;
 	margin-bottom: 20px;
 	background-color: #f9f6f3;
@@ -306,7 +307,7 @@ input[type="text"] {
 
 input[type="text"]:nth-child(1),
 .name-form {
-	margin-right: 20px;
+	margin-right: 17px;
 }
 
 input[type="text"]:focus::-webkit-input-placeholder {
@@ -319,4 +320,24 @@ input[type="text"]::-webkit-input-placeholder {
 	font-weight: bold;
 	letter-spacing: 0px;
 
+}
+
+input[type="submit"] {
+	display: block;
+	font-family: inherit;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	border: 0px;
+	width: 110px;
+	background-color: #000000;
+	text-align: center;
+	padding: 15px 117px;
+	width: 300px;
+}
+
+.form h2,
+.form p,
+.form form{
+	margin-left: 40px;
 }
