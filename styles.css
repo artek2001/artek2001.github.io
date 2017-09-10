@@ -345,6 +345,7 @@ input[type="submit"] {
 	text-align: center;
 	padding: 15px 117px;
 	width: 300px;
+	cursor: pointer;
 }
 
 .form h2,
@@ -360,4 +361,58 @@ input[type="submit"] {
 .features-item:nth-child(1) {
 
 	width: 289px;
+}
+
+
+/*footer*/
+
+span.find {
+	text-decoration: underline;
+}
+
+.main-footer {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.information {
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.info-block {
+	float: left;
+	margin-right: 80px;
+	width: 310px;
+}
+
+.social {
+	width: 160px;
+	float: left;
+	text-align: center;
+}
+
+.developer {
+	text-align: center;
+	float: right;
+}
+
+.img-btn {
+	display: block;
+	background-color: black;
+	border: 1px solid black;
+	border-width: 15px 10px;
+}
+
+.social-background {
+	height: 43px;
+	width: 43px;
+	background: black;
+	z-index: 2;
+}
+
+.img-vk {
+	background: url("images/vk.png")  center center no-repeat;
+	
+	z-index: 1;
 }
