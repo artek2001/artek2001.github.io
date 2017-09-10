@@ -26,7 +26,7 @@ nav {
 
 .navigation {
 	list-style: none;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	padding: 0px;
 	display: inline-block;
@@ -38,13 +38,14 @@ nav {
 .navigation li {
 	display: inline-block;
 	margin-right: 38px;
-	margin-top: 23px;
+	margin-top: 25px;
 	margin-bottom: 23px;
 }
 
 .navigation li:nth-child(5) {
 	margin-right: 0px;
 }
+
 
 .container {
 	width: 940px;
@@ -66,10 +67,10 @@ nav {
 .user-block {
 	float: right;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 	color: #FFFFFF;
 	min-height: 50px;
-	margin-top: 23px;
+	margin-top: 25px;
 	margin-bottom: 23px;
 }
 
@@ -102,8 +103,9 @@ main {
 }
 
 footer {
+	padding-top: 63px;
 	width: 100%;
-	height: 193px;
+	height: 130px;
 	background: url("images/texture2.png") ;
 	background-repeat: repeat;
 }
@@ -396,24 +398,39 @@ span.find {
 .developer {
 	text-align: center;
 	float: right;
+	font-size: 14px;
 }
 
-.img-btn {
-	display: block;
-	background-color: black;
-	border: 1px solid black;
-	border-width: 15px 10px;
-}
-
-.social-background {
-	height: 43px;
+.logo-img {
+	display: inline-block;
 	width: 43px;
-	background: black;
-	z-index: 2;
+	height: 43px;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.img-vk {
-	background: url("images/vk.png")  center center no-repeat;
+.vk {
+	background-image: url("images/vk.png");
 	
-	z-index: 1;
+}
+
+.inst {
+	background-image: url("images/inst.png");
+	margin-left: 3px;
+}
+
+.fb {
+	margin-left: 3px;
+	background-image: url("images/fb.png");
+}
+
+.friends {
+	margin-bottom: 18px;
+}
+
+.developer-btn {
+	font-size: 18px;
+	padding-top: 11px;
+	padding-bottom: 11px;
 }
