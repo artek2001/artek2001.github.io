@@ -163,6 +163,7 @@ footer {
 .news {
 	float: left;
 	width: 380px;
+	height: 295px;
 }
 
 .gallery {
@@ -238,4 +239,46 @@ figure h2 {
 
 figure {
 
+}
+
+
+/*main-block 2*/
+
+.contacts h2 {
+	margin-bottom: 35px;
+}
+
+.contacts {
+	float: left;
+	font-size: 14px;
+	width: 380px;
+	height: 295px;
+}
+
+.form {
+	font-size: 14px;
+	float: right;
+width: 380px;
+	height: 295px;
+}
+
+.address {
+	margin-bottom: 32px;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.time {
+	font-size: 14px;
+	line-height: 23px;
+	margin-bottom: 30px;	
+}
+
+.way,
+.callback {
+	display: inline-block;
+}
+
+.callback {
+	margin-left: 13px;
 }
