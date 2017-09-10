@@ -434,3 +434,10 @@ span.find {
 	padding-top: 11px;
 	padding-bottom: 11px;
 }
+
+@media only screen and (max-width: 320px)
+{
+	body {
+		font-size: 10px;
+	}
+}
