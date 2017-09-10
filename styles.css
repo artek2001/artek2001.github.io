@@ -156,17 +156,22 @@ footer {
 	background: url("images/texture.png");
 	margin-bottom: 35px;
 	color: #000000;
-	padding: 50px 80px;
+	padding: 45px 80px;
 }
 
 .main-item-1 {
 	margin-top: 80px;
+	height: 329px;
+}
+
+.main-item-2 {
+	height: 306px;
 }
 
 .news {
 	float: left;
 	width: 380px;
-	height: 295px;
+	height: 324px;
 }
 
 .gallery {
@@ -176,13 +181,14 @@ footer {
 
 .main-item h2 {
 	font-size: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .main-item p,
 .main-item span {
 	font-size: 14px;
 	font-weight: bold;
+	line-height: 18px;
 }
 
 .main-item::before {
@@ -199,12 +205,12 @@ footer {
 
 .main-item span {
 	display: block;
-	margin: 10px 0;
-	margin-bottom: 35px;
+	margin: 6px 0;
+	margin-bottom: 30px;
 }
 
-.main-item a {
-	
+.news a {
+	margin-top: 43px;
 	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 14px;
@@ -233,7 +239,8 @@ figure img {
 figcaption {
 	margin: 0px auto;
 	text-align: center;
-	margin-top: 38px;
+	margin-top: 31px;
+	font-weight: bold;
 }
 
 figure h2 {
@@ -256,6 +263,7 @@ figure {
 	font-size: 14px;
 	width: 380px;
 	height: 295px;
+	font-weight: bold;
 }
 
 .form {
@@ -267,14 +275,14 @@ figure {
 }
 
 .address {
-	margin-bottom: 17px;
+	margin-bottom: 22px;
 	font-size: 14px;
-	line-height: 23px;
+	line-height: 25px;
 }
 
 .time {
 	font-size: 14px;
-	line-height: 23px;
+	line-height: 25px;
 	margin-bottom: 23px;	
 }
 
@@ -340,4 +348,7 @@ input[type="submit"] {
 .form p,
 .form form{
 	margin-left: 40px;
+}
+.main-item-2 p {
+	line-height: 25px; 
 }
