@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .main-header-back-2 {
+        color: #FFFFFF;
+        background: -moz-linear-gradient( -67deg, rgb(246, 158, 97) 0%, rgb(247, 151, 101) 12%, rgb(248, 146, 104) 30%, rgb(250, 141, 106) 44%, rgb(251, 136, 109) 60%, rgb(251, 134, 109) 76%, rgb(249, 129, 112) 100%);
+        background: -webkit-linear-gradient( -67deg, rgb(246, 158, 97) 0%, rgb(247, 151, 101) 12%, rgb(248, 146, 104) 30%, rgb(250, 141, 106) 44%, rgb(251, 136, 109) 60%, rgb(251, 134, 109) 76%, rgb(249, 129, 112) 100%);
+        background: -ms-linear-gradient( -67deg, rgb(246, 158, 97) 0%, rgb(247, 151, 101) 12%, rgb(248, 146, 104) 30%, rgb(250, 141, 106) 44%, rgb(251, 136, 109) 60%, rgb(251, 134, 109) 76%, rgb(249, 129, 112) 100%);
+        opacity: 0.788;
+    }
+
+    .main-header-back {
+        background: url("images/background.jpg") no-repeat;
+    }
+
+    .main-header-back {
+        padding-bottom: 150px;
+    }
+
+    /*.section-1 {
+        margin-bottom: calc(100vh - 770px);
+    }*/
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .main-header {
+        padding-top: 30px;
+        /*min-height: 770px;*/
+        min-height: 770px;
+        font-weight: 500;
+    }
+    .main-container {
+        max-width: 1280px;
+    }
+
+    .main-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px auto;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    nav ul {
+        display: inline-block;
+        margin-top: 4px;
+    }
+
+    nav li {
+
+        height: 90px;
+        display: inline-block;
+    }
+
+    nav li {
+        margin-right: 90px;
+    }
+
+    nav li:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .promo-text {
+        font-size: 59px;
+        text-align: center;
+        margin-top: 110px;
+        line-height: 130px;
+    }
+
+    .logo {
+        background: url("images/artek.png");
+        height: 47px;
+        width: 159px;
+        background-repeat: no-repeat;
+        margin-left: 300px;
+    }
+
+
+
+    /*MAIN SECTIONS*/
+    .main-container-advantages {
+        background-image: -moz-linear-gradient( -67deg, rgb(119, 102, 227) 0%, rgb(250, 141, 106) 0%, rgb(111, 94, 216) 0%, rgb(116, 100, 222) 0%, rgb(112, 98, 219) 0%, rgb(112, 98, 219) 0%, rgb(112, 98, 219) 0%, rgb(102, 107, 221) 0%, rgb(106, 103, 219) 0%, rgb(94, 111, 226) 0%, rgb(91, 110, 229) 0%, rgb(251, 134, 109) 0%, rgb(35, 221, 210) 0%, rgb(62, 197, 214) 0%, rgb(62, 197, 214) 0%, rgb(49, 208, 212) 0%, rgb(62, 197, 214) 0%, rgb(74, 184, 214) 0%, rgb(86, 168, 213) 0%, rgb(105, 159, 222) 0%, rgb(105, 159, 222) 0%, rgb(137, 130, 227) 0%, rgb(137, 130, 227) 0%, rgb(125, 142, 225) 0%, rgb(147, 122, 229) 0%, rgb(246, 158, 97) 0%, rgb(255, 97, 153) 0%, rgb(255, 111, 144) 19%, rgb(255, 126, 133) 53%, rgb(255, 140, 124) 65%, rgb(255, 153, 116) 80%, rgb(255, 168, 106) 95%);
+        background-image: -webkit-linear-gradient( -67deg, rgb(119, 102, 227) 0%, rgb(250, 141, 106) 0%, rgb(111, 94, 216) 0%, rgb(116, 100, 222) 0%, rgb(112, 98, 219) 0%, rgb(112, 98, 219) 0%, rgb(112, 98, 219) 0%, rgb(102, 107, 221) 0%, rgb(106, 103, 219) 0%, rgb(94, 111, 226) 0%, rgb(91, 110, 229) 0%, rgb(251, 134, 109) 0%, rgb(35, 221, 210) 0%, rgb(62, 197, 214) 0%, rgb(62, 197, 214) 0%, rgb(49, 208, 212) 0%, rgb(62, 197, 214) 0%, rgb(74, 184, 214) 0%, rgb(86, 168, 213) 0%, rgb(105, 159, 222) 0%, rgb(105, 159, 222) 0%, rgb(137, 130, 227) 0%, rgb(137, 130, 227) 0%, rgb(125, 142, 225) 0%, rgb(147, 122, 229) 0%, rgb(246, 158, 97) 0%, rgb(255, 97, 153) 0%, rgb(255, 111, 144) 19%, rgb(255, 126, 133) 53%, rgb(255, 140, 124) 65%, rgb(255, 153, 116) 80%, rgb(255, 168, 106) 95%);
+        background-image: -ms-linear-gradient( -67deg, rgb(119, 102, 227) 0%, rgb(250, 141, 106) 0%, rgb(111, 94, 216) 0%, rgb(116, 100, 222) 0%, rgb(112, 98, 219) 0%, rgb(112, 98, 219) 0%, rgb(112, 98, 219) 0%, rgb(102, 107, 221) 0%, rgb(106, 103, 219) 0%, rgb(94, 111, 226) 0%, rgb(91, 110, 229) 0%, rgb(251, 134, 109) 0%, rgb(35, 221, 210) 0%, rgb(62, 197, 214) 0%, rgb(62, 197, 214) 0%, rgb(49, 208, 212) 0%, rgb(62, 197, 214) 0%, rgb(74, 184, 214) 0%, rgb(86, 168, 213) 0%, rgb(105, 159, 222) 0%, rgb(105, 159, 222) 0%, rgb(137, 130, 227) 0%, rgb(137, 130, 227) 0%, rgb(125, 142, 225) 0%, rgb(147, 122, 229) 0%, rgb(246, 158, 97) 0%, rgb(255, 97, 153) 0%, rgb(255, 111, 144) 19%, rgb(255, 126, 133) 53%, rgb(255, 140, 124) 65%, rgb(255, 153, 116) 80%, rgb(255, 168, 106) 95%);
+        opacity: 0.788;
+        box-shadow: 0px 16px 90.16px 7.84px rgba(0, 0, 0, 0.39);
+    }
+
+    .advantages {
+        color: #FFFFFF;
+    }
+
+    .advantages h2 {
+        font-size: 51px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 73px;
+        padding-bottom: 105px;
+    }
+
+    .header-section {
+        height: 100vh;
+    }
+
+    .advantages.main-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .main-container-advantages {
+        height: calc(100vh - 200px);
+    }
+
+    .portfolio-section {
+        height: 100vh;
+    }
+
+    .advantages-item {
+        border-radius: 7px;
+        background-color: #ffffff;
+        box-shadow: 0px 6px 34.65px 0.35px rgba(0, 0, 0, 0.09);
+        width: 380px;
+        height: 312px;
+        margin-right: 150px;
+    }
+
+    .advantages-item:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    .advantages-items {
+        display: flex;
+        justify-content: center;
+        color: #b5b5b5;
+        font-weight: 200;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    span.slogan {
+        display: block;
+        margin-top: -30px;
+        color: #384c78;
+        font-size: 40px;
+    }
+
+    p.feature-text {
+        margin-top: 20px;
+        line-height: 35px;
+    }
+
+    .ellipse {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #ffffff;
+        box-shadow: 0px 6px 34.65px 0.35px rgba(0, 0, 0, 0.13);
+        position: relative;
+        bottom: 30px;
+        width: 56px;
+        height: 54px;
+    }
+
+    .main-container-portfolio {
+        background-image: -moz-linear-gradient( -67deg, rgb(249, 129, 112) 0%, rgb(251, 134, 109) 24%, rgb(251, 136, 109) 40%, rgb(250, 141, 106) 56%, rgb(248, 146, 104) 70%, rgb(247, 151, 101) 88%, rgb(246, 158, 97) 100%);
+        background-image: -webkit-linear-gradient( -67deg, rgb(249, 129, 112) 0%, rgb(251, 134, 109) 24%, rgb(251, 136, 109) 40%, rgb(250, 141, 106) 56%, rgb(248, 146, 104) 70%, rgb(247, 151, 101) 88%, rgb(246, 158, 97) 100%);
+        background-image: -ms-linear-gradient( -67deg, rgb(249, 129, 112) 0%, rgb(251, 134, 109) 24%, rgb(251, 136, 109) 40%, rgb(250, 141, 106) 56%, rgb(248, 146, 104) 70%, rgb(247, 151, 101) 88%, rgb(246, 158, 97) 100%);
+        opacity: 0.788;
+        box-shadow: 0px 16px 90.16px 7.84px rgba(0, 0, 0, 0.39);
+
+
+        height: calc(100vh - 200px);
+    }
+
+    .portfolio-section {
+        padding: 100px 0px;
+        color: #ffffff;
+    }
+
+    h2.portfolio-title {
+        color: #ffffff;
+        font-size: 60px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .portfolio-center-container {
+        display: block;
+        
+        margin-top: 110px;
+    }
+
+
+    .portfolio-items-back {
+        margin: 0px auto;
+        border-radius: 7px;
+        background-color: #ffffff;
+        box-shadow: 0px 6px 34.65px 0.35px rgba(0, 0, 0, 0.09);
+        width: 1279px;
+        height: 427px;
+        padding: 10px;
+        padding-top: 20px;
+
+    }
+
+    .controllers {
+        align-self: flex-end;
+        width: 200px;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .controllers-item {
+        border-radius: 50%;
+        background-color: #ffffff;
+        box-shadow: 0px 3px 9.9px 0.1px rgba(0, 0, 0, 0.41);
+		display: inline-block;
+        width: 18px;
+        height: 19px;
+    }
+
+    .portfolio-item {
+        width: 420px;
+        height: 400px;
+        background-color: black;
+    }
+
+    .portfolio-items-container {
+    	display: flex;
+    	justify-content: center;
+    	
+    }
+    
+    .portfolio-item {
+    	margin-right: 5px;
+    }
+
+    .portfolio-item:nth-child(3) {
+    	margin: 0px;
+    }
+
+    .controllers-item {
+    	margin-right: 5px;
+    }
+
+    .controllers-item:nth-child(3) {
+    	margin: 0px;
+    }
+}

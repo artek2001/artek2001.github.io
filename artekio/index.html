@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>artek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="jquery.scrollify.js"></script>
+    <script src="wew.min.js"></script>
+    <script>
+    $(function() {
+        $.scrollify({
+            section: ".main-section",
+            sectionName: "section-name",
+            interstitialSection: "",
+            easing: "easeOutExpo",
+            scrollSpeed: 1100,
+            offset: 0,
+            scrollbars: true,
+            standardScrollElements: "",
+            setHeights: false,
+            overflowScroll: true,
+            updateHash: true,
+            touchScroll: true,
+            before: function() {},
+            after: function() {},
+            afterResize: function() {},
+            afterRender: function() {}
+        });
+        $('.promo-text').addClass('animated fadeInDown');
+        var wew = new Wew();
+        wew.init();
+    });
+    </script>
+</head>
+
+<body>
+    <main>
+        <div class="section main-section header-section">
+            <div class=" main-header-back">
+                <div class="main-header-back-2">
+                    <div class="main-container">
+                        <div class="main-header ">
+                            <nav>
+                                <ul>
+                                    <li><a href="#advantages">advantages</a></li>
+                                    <li><a href="#portfolio">portfolio</a></li>
+                                    <li><a href="#prices">prices</a></li>
+                                    <li><a href="#about">about</a></li>
+                                </ul>
+                                <a href="https://web-artek.ru">
+                                    <div class="logo"></div>
+                                </a>
+                            </nav>
+                            <p class="promo-text">Need a professional website?
+                                <br> You are on the right way</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section advantages main-section">
+            <div class="main-container-advantages">
+                <h2 class="advantages-title">Advantages</h2>
+                <div class="advantages-items wew fadeIn">
+                    <div class="advantages-item advantages-fast">
+                        <div class="ellipse"></div>
+                        <span class="slogan">Fast</span>
+                        <p class="feature-text">We make our work
+                            <br> immedietely. You call us
+                            <br> and then we are ready to
+                            <br> start working.</p>
+                    </div>
+                    <div class="advantages-item advantages-cheap">
+                        <div class="ellipse"></div>
+                        <span class="slogan">Cheap</span>
+                        <p class="feature-text">We work proudly and
+                            <br> don’t lie to our custom-
+                            <br>ers. We don’t make the
+                            <br> price higher than it is.</p>
+                    </div>
+                    <div class="advantages-item advantages-safe">
+                        <div class="ellipse"></div>
+                        <span class="slogan">Safe</span>
+                        <p class="feature-text">All the websites we make
+                            <br>have one year guarantee.
+                            <br>It means if something
+                            <br>wrong happened, we are
+                            <br> glad to help you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section portfolio-section main-section">
+            <div class="main-container-portfolio">
+                <h2 class="portfolio-title">Portfolio</h2>
+                <div class="portfolio-center-container">
+                    <div class="portfolio-items-back">
+                        <div class="portfolio-items-container">
+                            <div class="portfolio-item"></div>
+                            <div class="portfolio-item"></div>
+                            <div class="portfolio-item"></div>
+                        </div>
+                        <div class="controllers">
+                            <div class="controllers-item"></div>
+                            <div class="controllers-item"></div>
+                            <div class="controllers-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section prices main-section">
+            <div class="main-container">
+                <h2>Prices</h2>
+                <div class="prices-item-1">
+                    <p>Landing page</p>
+                    <p>Not adaptive</p>
+                    <span>200$</span>
+                </div>
+                <div class="prices-item-2">
+                    <p>Landing page</p>
+                    <p>Adaptive</p>
+                    <span>300$</span>
+                </div>
+            </div>
+        </section>
+        <section class="section about main-section">
+            <div class="main-container">
+                <h2>About</h2>
+                <p>I am a professional web developer. Work professionaly for 3 years.</p>
+                <div class="tools">
+                    <span>Tools I use:</span>
+                    <div class="tools-block"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
